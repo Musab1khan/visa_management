@@ -1,0 +1,96 @@
+{
+ "charts": [
+  {
+   "chart_name": "Visa Use History",
+   "label": "Visa Use History"
+  },
+  {
+   "chart_name": "Visa Application",
+   "label": "Visa Application Chart"
+  }
+ ],
+ "content": "[{\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\"><b>Your Shortcuts</b></span>\",\"col\":12}},{\"type\":\"spacer\",\"data\":{\"col\":12}},{\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Visa Application\",\"col\":3}},{\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Visa Approval History\",\"col\":3}},{\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Visa Use History\",\"col\":3}},{\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Visa Return History\",\"col\":3}},{\"type\":\"card\",\"data\":{\"card_name\":\"Master Configuration\",\"col\":4}},{\"type\":\"spacer\",\"data\":{\"col\":12}},{\"type\":\"chart\",\"data\":{\"chart_name\":\"Visa Application Chart\",\"col\":12}},{\"type\":\"chart\",\"data\":{\"chart_name\":\"Visa Use History\",\"col\":12}},{\"type\":\"spacer\",\"data\":{\"col\":12}}]",
+ "creation": "2022-08-31 15:56:00.316648",
+ "docstatus": 0,
+ "doctype": "Workspace",
+ "for_user": "",
+ "hide_custom": 0,
+ "icon": "share-people",
+ "idx": 0,
+ "label": "Visa Management",
+ "links": [
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Visa Application",
+   "link_count": 0,
+   "link_to": "Visa Application",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Master Configuration",
+   "link_count": 1,
+   "onboard": 0,
+   "type": "Card Break"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Visa Type",
+   "link_count": 0,
+   "link_to": "Visa Type",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  }
+ ],
+ "modified": "2022-09-13 10:42:51.586090",
+ "modified_by": "Administrator",
+ "module": "Visa Management",
+ "name": "Visa Management",
+ "owner": "Administrator",
+ "parent_page": "",
+ "public": 1,
+ "quick_lists": [],
+ "roles": [
+  {
+   "role": "Workspace Manager"
+  }
+ ],
+ "sequence_id": 1.0,
+ "shortcuts": [
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "Visa Return History",
+   "link_to": "Visa Return History",
+   "type": "DocType"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "Visa Application",
+   "link_to": "Visa Application",
+   "type": "DocType"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "Visa Approval History",
+   "link_to": "Visa Approval History",
+   "type": "DocType"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "Visa Use History",
+   "link_to": "Visa Use History",
+   "type": "DocType"
+  }
+ ],
+ "title": "Visa Management"
+}

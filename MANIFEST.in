@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include visa_management *.css
+recursive-include visa_management *.csv
+recursive-include visa_management *.html
+recursive-include visa_management *.ico
+recursive-include visa_management *.js
+recursive-include visa_management *.json
+recursive-include visa_management *.md
+recursive-include visa_management *.png
+recursive-include visa_management *.py
+recursive-include visa_management *.svg
+recursive-include visa_management *.txt
+recursive-exclude visa_management *.pyc
